@@ -1,5 +1,12 @@
 {
-  "params": {
-    "name": "Jane Smith"
-  }
+    "params": {
+        "name": "Jane Smith"
+    },
+    "systemParams": {
+        "api": {
+            "simple-api": {
+                "url": "http://localhost:8081"
+            }
+        }
+    }
 }

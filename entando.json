@@ -24,6 +24,13 @@
                     "name": "name",
                     "description": "NPS The name for this Hello World app"
                 }
+            ],
+            "apiClaims": [
+                {
+                    "name": "simple-api",
+                    "type": "internal",
+                    "serviceName": "nps-spring-ms"
+                }
             ]
         },
         {
