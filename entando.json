@@ -1,7 +1,7 @@
 {
     "microservices": [
         {
-            "name": "nps-spring-ms",
+            "name": "spring-ms",
             "stack": "spring-boot",
             "healthCheckPath": "/api/health"
         }
@@ -15,21 +15,21 @@
             "group": "free",
             "publicFolder": "public",
             "titles": {
-                "en": "NPS Simple Configurable MFE",
-                "it": "NPS Simple Configurable MFE"
+                "en": "E71 Simple Configurable MFE with claim",
+                "it": "E71 Simple Configurable MFE with claim"
             },
             "configMfe": "simple-mfe-config",
             "params": [
                 {
                     "name": "name",
-                    "description": "NPS The name for this Hello World app"
+                    "description": "The name for this Hello World app"
                 }
             ],
             "apiClaims": [
                 {
                     "name": "simple-api",
                     "type": "internal",
-                    "serviceName": "nps-spring-ms"
+                    "serviceName": "spring-ms"
                 }
             ]
         },
@@ -43,8 +43,8 @@
         }
     ],
     "svc": [],
-    "name": "20230331-springboot-with-claim",
+    "name": "e71-springboot-with-claim",
     "version": "0.0.1",
-    "description": "NPS Simple configurable MFE with Spring Boot claim",
+    "description": "E7.1 Configurable MFE with Spring Boot claim",
     "type": "bundle"
 }
