@@ -1,5 +1,5 @@
 # Configurable Widget
-The project contains an MFE (simple-mfe) with associated (simple-mfe-config) for Entando 7.1
+The project contains an MFE (simple-mfe) with associated (simple-mfe-config) for Entando 7.1. It also includes a simple Spring Boot microservice (spring-ms) connected to the simple-mfe via an API claim.
 
 ## Prerequisites
 1. Docker account
