@@ -9,14 +9,14 @@
             "group": "free",
             "publicFolder": "public",
             "titles": {
-                "en": "Simple Configurable MFE",
-                "it": "Simple Configurable MFE"
+                "en": "NPS Simple Configurable MFE",
+                "it": "NPS Simple Configurable MFE"
             },
             "configMfe": "simple-mfe-config",
             "params": [
                 {
                     "name": "name",
-                    "description": "The name for this Hello World app"
+                    "description": "NPS The name for this Hello World app"
                 }
             ]
         },
@@ -32,6 +32,6 @@
     "svc": [],
     "name": "20230331-springboot-with-claim",
     "version": "0.0.1",
-    "description": "Simple configurable MFE",
+    "description": "NPS Simple configurable MFE with Spring Boot claim",
     "type": "bundle"
 }
