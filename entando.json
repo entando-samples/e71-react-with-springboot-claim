@@ -1,5 +1,11 @@
 {
-    "microservices": [],
+    "microservices": [
+        {
+            "name": "nps-spring-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/api/health"
+        }
+    ],
     "microfrontends": [
         {
             "name": "simple-mfe",
