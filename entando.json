@@ -1,0 +1,37 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "simple-mfe",
+            "customElement": "simple-mfe",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "Simple Configurable MFE",
+                "it": "Simple Configurable MFE"
+            },
+            "configMfe": "simple-mfe-config",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "The name for this Hello World app"
+                }
+            ]
+        },
+        {
+            "name": "simple-mfe-config",
+            "customElement": "simple-mfe-config",
+            "stack": "react",
+            "type": "widget-config",
+            "group": "free",
+            "publicFolder": "public"
+        }
+    ],
+    "svc": [],
+    "name": "20230331-springboot-with-claim",
+    "version": "0.0.1",
+    "description": "Simple configurable MFE",
+    "type": "bundle"
+}
